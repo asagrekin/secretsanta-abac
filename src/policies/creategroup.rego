@@ -1,4 +1,3 @@
-package secretsanta.creategroup
+package secretsanta.GET.creategroup
 
 default allowed = true
-
