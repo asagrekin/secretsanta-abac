@@ -1,4 +1,5 @@
 package secretsanta.GET.deletegroup
+
 default allowed = false
 
 allowed {

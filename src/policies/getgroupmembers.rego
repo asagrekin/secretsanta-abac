@@ -1,3 +1,8 @@
 package secretsanta.GET.getgroupmembers
   
-default allowed = true
+default allowed = false
+
+allowed {
+    some index
+    input.user.identities[input.resource.members[index]]
+}

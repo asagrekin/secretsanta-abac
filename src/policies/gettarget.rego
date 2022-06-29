@@ -1,4 +1,4 @@
-package secretsanta.GET.addtowishlist
+package secretsanta.GET.gettarget
   
 default allowed = false
 

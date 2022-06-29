@@ -1,3 +1,7 @@
 package secretsanta.GET.endgame
   
-default allowed = true
+default allowed = false
+
+allowed {
+    input.user.identities[input.resource.ownerId]
+}
