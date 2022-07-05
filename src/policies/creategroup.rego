@@ -4,5 +4,6 @@ default allowed = false
 
 
 allowed {
- input.user.attributes.roles["admin"]
+ some i
+ input.user.attributes.rules[i] == "admin"
 }
