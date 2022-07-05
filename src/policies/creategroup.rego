@@ -5,5 +5,5 @@ default allowed = false
 
 allowed {
  some i
- input.user.attributes.rules[i] == "admin"
+ input.user.attributes.roles[i] == "admin"
 }
