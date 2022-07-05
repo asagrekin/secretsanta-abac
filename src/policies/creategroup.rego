@@ -1,4 +1,4 @@
-package example_rbac
+package secretsanta.GET.creategroup
 
 default allowed = false
 
