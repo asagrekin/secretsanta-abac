@@ -4,5 +4,5 @@ default allowed = false
 
 
 allowed {
- input.user.attributes.roles["acmecorp"]
+ input.user.attributes.roles["admin"]
 }
